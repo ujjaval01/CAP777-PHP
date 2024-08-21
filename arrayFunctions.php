@@ -3,11 +3,11 @@
 $a = array(1,3,2,5);
 $b = array(9,7,6,8);
 
-$c=array("red","green","blue","yellow","brown");
-$random_keys=array_rand($a,3);
-echo $c[$random_keys[0]]."<br>";
-echo $c[$random_keys[1]]."<br>";
-echo $c[$random_keys[2]];
+ $c=array("red","green","blue","yellow","brown");
+// $random_keys=array_rand($a,3);
+// echo $c[$random_keys[0]]."<br>";
+// echo $c[$random_keys[1]]."<br>";
+// echo $c[$random_keys[2]];
 
 
 // $frndName = array("ujvl","aman","aashish","aadi");
@@ -21,6 +21,11 @@ echo $c[$random_keys[2]];
 
 // $f3 = array_chunk($a, 2);
 // print_r($f3)
+
+//$f4 = array_change_key_case($c,CASE_UPPER);
+$age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+print_r(array_change_key_case($age,CASE_UPPER));
+//print_r($f4);
 
 
 ?>    
